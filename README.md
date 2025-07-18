@@ -27,9 +27,11 @@ create_bd.py - заполняет текстовую базу данных на 
 Модели обрабатывались на видеокарте NVIDIA GeForce RTX 4060 Laptop GPU
 
 <img width="798" height="347" alt="б" src="https://github.com/user-attachments/assets/5788b091-c563-47fd-a13e-faee504f3665" />
+
 Рисунок 1 - Модель отвечает на вопрос, контекста для которого нет в БД
 
 <img width="799" height="575" alt="а" src="https://github.com/user-attachments/assets/eab9cea0-1fc3-48df-b31d-ace87d5092b7" />
+
 Рисунок 2 - Модель отвечает на вопрос, контекст для которого есть в БД
 
 ## База данных на PostgreSQL
