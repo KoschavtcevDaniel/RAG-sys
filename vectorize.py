@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 
 embedding_model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 
-conn = psycopg2.connect(host='localhost', user='postgres', password='29062003', dbname='postgres')
+conn = psycopg2.connect(host='localhost', user='postgres', password='password', dbname='postgres')
 cursor = conn.cursor()
 
 
