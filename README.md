@@ -37,4 +37,11 @@ create table if not exists information(
 	id_doc serial primary key,
 	doc text not null
 );
+
+create table if not exists vectors(
+	id_doc integer,
+	embedding VECTOR(5000),
+	FOREIGN KEY (id_doc) REFERENCES information(id_doc)
+);
 ```
+Код для создания таблиц в БД
