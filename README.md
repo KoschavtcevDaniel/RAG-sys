@@ -46,7 +46,7 @@ create table if not exists information(
 
 create table if not exists vectors(
 	id_doc integer,
-	embedding VECTOR(5000),
+	embedding VECTOR(384),
 	FOREIGN KEY (id_doc) REFERENCES information(id_doc)
 );
 ```
