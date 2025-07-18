@@ -11,7 +11,7 @@ embedding_model = SentenceTransformer('paraphrase-MiniLM-L3-v2')
 model = model_init.get_model()
 tokenizer = model_init.get_tokenizer()
 
-conn = psycopg2.connect(host='localhost', user='postgres', password='29062003', dbname='postgres')
+conn = psycopg2.connect(host='localhost', user='postgres', password='password', dbname='postgres')
 cursor = conn.cursor()
 
 
