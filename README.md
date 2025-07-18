@@ -30,7 +30,9 @@ create_bd.py - заполняет текстовую базу данных на 
 
 Рисунок 1 - Модель отвечает на вопрос, контекста для которого нет в БД
 
-<img width="799" height="575" alt="а" src="https://github.com/user-attachments/assets/eab9cea0-1fc3-48df-b31d-ace87d5092b7" />
+
+<img width="791" height="406" alt="а" src="https://github.com/user-attachments/assets/3be18b75-6f23-4d96-a864-4fc3167b9ade" />
+
 
 Рисунок 2 - Модель отвечает на вопрос, контекст для которого есть в БД
 
